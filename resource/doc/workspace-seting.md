@@ -1,0 +1,30 @@
+- 排除文件
+```json
+"files.exclude": {
+			".devcontainer": true,
+			".github": true,
+			"docker_example": true,
+			"doc": true,
+			"scripts": true,
+			"tests": true,
+			"docs": true,
+			"deploy": true,
+			"*docker*": true,
+			"*Docker*": true,
+			"example.har": true,
+			"*.md": true,
+			"*.yaml": true,
+			"src/backend/langflow": true,
+			"src/frontend": true,
+			"src/backend/.gitignore": true,
+			"src/backend/Dockerfile": true,
+			"src/backend/base/poetry.lock": true,
+			"src/backend/base/pyproject.toml": true,
+			"src/backend/base/README.md": true,
+			"**/__pycache__": true,
+			"*env*": true,
+			"LICENSE": true,
+			"container-cmd-cdk.sh": true,
+			"eslint.config.js": true,
+		}
+```
